@@ -1,0 +1,1198 @@
+--------------------------Welcome to Fully Associative CacheConfiguration-------------------------- 
+
+-------------------------------------Where N = 8, S = 1, B = 16------------------------------------
+
+(1) Memory Access Location(Hex): 0x2034
+    Memory Access Loaction(Bin): 00000000000000000010000000110100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+
+    Trying Block 0 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 0, Miss: 1
+
+(2) Memory Access Location(Hex): 0x2030
+    Memory Access Loaction(Bin): 00000000000000000010000000110000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 1, Miss: 1
+
+(3) Memory Access Location(Hex): 0x202c
+    Memory Access Loaction(Bin): 00000000000000000010000000101100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+
+    Trying Block 1 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 1, Miss: 2
+
+(4) Memory Access Location(Hex): 0x2028
+    Memory Access Loaction(Bin): 00000000000000000010000000101000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+
+    Trying Block 1 Tag:(0x202) -- Cache Hit.
+    Hit: 2, Miss: 2
+
+(5) Memory Access Location(Hex): 0x2024
+    Memory Access Loaction(Bin): 00000000000000000010000000100100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+
+    Trying Block 1 Tag:(0x202) -- Cache Hit.
+    Hit: 3, Miss: 2
+
+(6) Memory Access Location(Hex): 0x2020
+    Memory Access Loaction(Bin): 00000000000000000010000000100000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+
+    Trying Block 1 Tag:(0x202) -- Cache Hit.
+    Hit: 4, Miss: 2
+
+(7) Memory Access Location(Hex): 0x201c
+    Memory Access Loaction(Bin): 00000000000000000010000000011100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 4, Miss: 3
+
+(8) Memory Access Location(Hex): 0x2018
+    Memory Access Loaction(Bin): 00000000000000000010000000011000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 5, Miss: 3
+
+(9) Memory Access Location(Hex): 0x2014
+    Memory Access Loaction(Bin): 00000000000000000010000000010100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 6, Miss: 3
+
+(10) Memory Access Location(Hex): 0x2010
+    Memory Access Loaction(Bin): 00000000000000000010000000010000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 7, Miss: 3
+
+(11) Memory Access Location(Hex): 0x200c
+    Memory Access Loaction(Bin): 00000000000000000010000000001100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 7, Miss: 4
+
+(12) Memory Access Location(Hex): 0x2008
+    Memory Access Loaction(Bin): 00000000000000000010000000001000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 8, Miss: 4
+
+(13) Memory Access Location(Hex): 0x2004
+    Memory Access Loaction(Bin): 00000000000000000010000000000100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 9, Miss: 4
+
+(14) Memory Access Location(Hex): 0x2000
+    Memory Access Loaction(Bin): 00000000000000000010000000000000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 10, Miss: 4
+
+(15) Memory Access Location(Hex): 0x2000
+    Memory Access Loaction(Bin): 00000000000000000010000000000000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 11, Miss: 4
+
+(16) Memory Access Location(Hex): 0x2000
+    Memory Access Loaction(Bin): 00000000000000000010000000000000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 12, Miss: 4
+
+(17) Memory Access Location(Hex): 0x2004
+    Memory Access Loaction(Bin): 00000000000000000010000000000100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 13, Miss: 4
+
+(18) Memory Access Location(Hex): 0x2008
+    Memory Access Loaction(Bin): 00000000000000000010000000001000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 14, Miss: 4
+
+(19) Memory Access Location(Hex): 0x2174
+    Memory Access Loaction(Bin): 00000000000000000010000101110100
+    BreakDown:
+      -Tag: 0000000000000000001000010111 (0x217)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 14, Miss: 5
+
+(20) Memory Access Location(Hex): 0x2004
+    Memory Access Loaction(Bin): 00000000000000000010000000000100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 15, Miss: 5
+
+(21) Memory Access Location(Hex): 0x2004
+    Memory Access Loaction(Bin): 00000000000000000010000000000100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 16, Miss: 5
+
+(22) Memory Access Location(Hex): 0x2008
+    Memory Access Loaction(Bin): 00000000000000000010000000001000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 17, Miss: 5
+
+(23) Memory Access Location(Hex): 0x200c
+    Memory Access Loaction(Bin): 00000000000000000010000000001100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 18, Miss: 5
+
+(24) Memory Access Location(Hex): 0x21a0
+    Memory Access Loaction(Bin): 00000000000000000010000110100000
+    BreakDown:
+      -Tag: 0000000000000000001000011010 (0x21a)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+
+    Trying Block 5 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 18, Miss: 6
+
+(25) Memory Access Location(Hex): 0x2008
+    Memory Access Loaction(Bin): 00000000000000000010000000001000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 19, Miss: 6
+
+(26) Memory Access Location(Hex): 0x2008
+    Memory Access Loaction(Bin): 00000000000000000010000000001000
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 20, Miss: 6
+
+(27) Memory Access Location(Hex): 0x200c
+    Memory Access Loaction(Bin): 00000000000000000010000000001100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 21, Miss: 6
+
+(28) Memory Access Location(Hex): 0x2010
+    Memory Access Loaction(Bin): 00000000000000000010000000010000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 22, Miss: 6
+
+(29) Memory Access Location(Hex): 0x21cc
+    Memory Access Loaction(Bin): 00000000000000000010000111001100
+    BreakDown:
+      -Tag: 0000000000000000001000011100 (0x21c)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+
+    Trying Block 6 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 22, Miss: 7
+
+(30) Memory Access Location(Hex): 0x200c
+    Memory Access Loaction(Bin): 00000000000000000010000000001100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 23, Miss: 7
+
+(31) Memory Access Location(Hex): 0x200c
+    Memory Access Loaction(Bin): 00000000000000000010000000001100
+    BreakDown:
+      -Tag: 0000000000000000001000000000 (0x200)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+
+    Trying Block 3 Tag:(0x200) -- Cache Hit.
+    Hit: 24, Miss: 7
+
+(32) Memory Access Location(Hex): 0x2010
+    Memory Access Loaction(Bin): 00000000000000000010000000010000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 25, Miss: 7
+
+(33) Memory Access Location(Hex): 0x2014
+    Memory Access Loaction(Bin): 00000000000000000010000000010100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 26, Miss: 7
+
+(34) Memory Access Location(Hex): 0x21f8
+    Memory Access Loaction(Bin): 00000000000000000010000111111000
+    BreakDown:
+      -Tag: 0000000000000000001000011111 (0x21f)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying Block 7 Tag:(0x0) -- Cache Miss, Set is empty.
+    Hit: 26, Miss: 8
+
+(35) Memory Access Location(Hex): 0x2010
+    Memory Access Loaction(Bin): 00000000000000000010000000010000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 27, Miss: 8
+
+(36) Memory Access Location(Hex): 0x2010
+    Memory Access Loaction(Bin): 00000000000000000010000000010000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 28, Miss: 8
+
+(37) Memory Access Location(Hex): 0x2014
+    Memory Access Loaction(Bin): 00000000000000000010000000010100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 29, Miss: 8
+
+(38) Memory Access Location(Hex): 0x2018
+    Memory Access Loaction(Bin): 00000000000000000010000000011000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 30, Miss: 8
+
+(39) Memory Access Location(Hex): 0x2224
+    Memory Access Loaction(Bin): 00000000000000000010001000100100
+    BreakDown:
+      -Tag: 0000000000000000001000100010 (0x222)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 0 since it is the least recently used block
+    Hit: 30, Miss: 9
+
+(40) Memory Access Location(Hex): 0x2014
+    Memory Access Loaction(Bin): 00000000000000000010000000010100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 31, Miss: 9
+
+(41) Memory Access Location(Hex): 0x2014
+    Memory Access Loaction(Bin): 00000000000000000010000000010100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 32, Miss: 9
+
+(42) Memory Access Location(Hex): 0x2018
+    Memory Access Loaction(Bin): 00000000000000000010000000011000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 33, Miss: 9
+
+(43) Memory Access Location(Hex): 0x201c
+    Memory Access Loaction(Bin): 00000000000000000010000000011100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 34, Miss: 9
+
+(44) Memory Access Location(Hex): 0x2250
+    Memory Access Loaction(Bin): 00000000000000000010001001010000
+    BreakDown:
+      -Tag: 0000000000000000001000100101 (0x225)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 1 since it is the least recently used block
+    Hit: 34, Miss: 10
+
+(45) Memory Access Location(Hex): 0x2018
+    Memory Access Loaction(Bin): 00000000000000000010000000011000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 35, Miss: 10
+
+(46) Memory Access Location(Hex): 0x2018
+    Memory Access Loaction(Bin): 00000000000000000010000000011000
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 36, Miss: 10
+
+(47) Memory Access Location(Hex): 0x201c
+    Memory Access Loaction(Bin): 00000000000000000010000000011100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 37, Miss: 10
+
+(48) Memory Access Location(Hex): 0x2020
+    Memory Access Loaction(Bin): 00000000000000000010000000100000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 4 since it is the least recently used block
+    Hit: 37, Miss: 11
+
+(49) Memory Access Location(Hex): 0x227c
+    Memory Access Loaction(Bin): 00000000000000000010001001111100
+    BreakDown:
+      -Tag: 0000000000000000001000100111 (0x227)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 5 since it is the least recently used block
+    Hit: 37, Miss: 12
+
+(50) Memory Access Location(Hex): 0x201c
+    Memory Access Loaction(Bin): 00000000000000000010000000011100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 38, Miss: 12
+
+(51) Memory Access Location(Hex): 0x201c
+    Memory Access Loaction(Bin): 00000000000000000010000000011100
+    BreakDown:
+      -Tag: 0000000000000000001000000001 (0x201)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+
+    Trying Block 2 Tag:(0x201) -- Cache Hit.
+    Hit: 39, Miss: 12
+
+(52) Memory Access Location(Hex): 0x2020
+    Memory Access Loaction(Bin): 00000000000000000010000000100000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 40, Miss: 12
+
+(53) Memory Access Location(Hex): 0x2024
+    Memory Access Loaction(Bin): 00000000000000000010000000100100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 41, Miss: 12
+
+(54) Memory Access Location(Hex): 0x22a8
+    Memory Access Loaction(Bin): 00000000000000000010001010101000
+    BreakDown:
+      -Tag: 0000000000000000001000101010 (0x22a)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 6 since it is the least recently used block
+    Hit: 41, Miss: 13
+
+(55) Memory Access Location(Hex): 0x2020
+    Memory Access Loaction(Bin): 00000000000000000010000000100000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 42, Miss: 13
+
+(56) Memory Access Location(Hex): 0x2020
+    Memory Access Loaction(Bin): 00000000000000000010000000100000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 43, Miss: 13
+
+(57) Memory Access Location(Hex): 0x2024
+    Memory Access Loaction(Bin): 00000000000000000010000000100100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 44, Miss: 13
+
+(58) Memory Access Location(Hex): 0x2028
+    Memory Access Loaction(Bin): 00000000000000000010000000101000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 45, Miss: 13
+
+(59) Memory Access Location(Hex): 0x22d4
+    Memory Access Loaction(Bin): 00000000000000000010001011010100
+    BreakDown:
+      -Tag: 0000000000000000001000101101 (0x22d)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 3 since it is the least recently used block
+    Hit: 45, Miss: 14
+
+(60) Memory Access Location(Hex): 0x2024
+    Memory Access Loaction(Bin): 00000000000000000010000000100100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 46, Miss: 14
+
+(61) Memory Access Location(Hex): 0x2024
+    Memory Access Loaction(Bin): 00000000000000000010000000100100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 47, Miss: 14
+
+(62) Memory Access Location(Hex): 0x2028
+    Memory Access Loaction(Bin): 00000000000000000010000000101000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 48, Miss: 14
+
+(63) Memory Access Location(Hex): 0x202c
+    Memory Access Loaction(Bin): 00000000000000000010000000101100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 49, Miss: 14
+
+(64) Memory Access Location(Hex): 0x2300
+    Memory Access Loaction(Bin): 00000000000000000010001100000000
+    BreakDown:
+      -Tag: 0000000000000000001000110000 (0x230)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x21f -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 7 since it is the least recently used block
+    Hit: 49, Miss: 15
+
+(65) Memory Access Location(Hex): 0x2028
+    Memory Access Loaction(Bin): 00000000000000000010000000101000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 50, Miss: 15
+
+(66) Memory Access Location(Hex): 0x2028
+    Memory Access Loaction(Bin): 00000000000000000010000000101000
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 51, Miss: 15
+
+(67) Memory Access Location(Hex): 0x202c
+    Memory Access Loaction(Bin): 00000000000000000010000000101100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 52, Miss: 15
+
+(68) Memory Access Location(Hex): 0x2030
+    Memory Access Loaction(Bin): 00000000000000000010000000110000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 0 since it is the least recently used block
+    Hit: 52, Miss: 16
+
+(69) Memory Access Location(Hex): 0x232c
+    Memory Access Loaction(Bin): 00000000000000000010001100101100
+    BreakDown:
+      -Tag: 0000000000000000001000110010 (0x232)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 1 since it is the least recently used block
+    Hit: 52, Miss: 17
+
+(70) Memory Access Location(Hex): 0x202c
+    Memory Access Loaction(Bin): 00000000000000000010000000101100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 53, Miss: 17
+
+(71) Memory Access Location(Hex): 0x202c
+    Memory Access Loaction(Bin): 00000000000000000010000000101100
+    BreakDown:
+      -Tag: 0000000000000000001000000010 (0x202)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+
+    Trying Block 4 Tag:(0x202) -- Cache Hit.
+    Hit: 54, Miss: 17
+
+(72) Memory Access Location(Hex): 0x2030
+    Memory Access Loaction(Bin): 00000000000000000010000000110000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 55, Miss: 17
+
+(73) Memory Access Location(Hex): 0x2034
+    Memory Access Loaction(Bin): 00000000000000000010000000110100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 56, Miss: 17
+
+(74) Memory Access Location(Hex): 0x2358
+    Memory Access Loaction(Bin): 00000000000000000010001101011000
+    BreakDown:
+      -Tag: 0000000000000000001000110101 (0x235)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 5 since it is the least recently used block
+    Hit: 56, Miss: 18
+
+(75) Memory Access Location(Hex): 0x2030
+    Memory Access Loaction(Bin): 00000000000000000010000000110000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 57, Miss: 18
+
+(76) Memory Access Location(Hex): 0x2030
+    Memory Access Loaction(Bin): 00000000000000000010000000110000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 58, Miss: 18
+
+(77) Memory Access Location(Hex): 0x2034
+    Memory Access Loaction(Bin): 00000000000000000010000000110100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 59, Miss: 18
+
+(78) Memory Access Location(Hex): 0x2038
+    Memory Access Loaction(Bin): 00000000000000000010000000111000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 60, Miss: 18
+
+(79) Memory Access Location(Hex): 0x2384
+    Memory Access Loaction(Bin): 00000000000000000010001110000100
+    BreakDown:
+      -Tag: 0000000000000000001000111000 (0x238)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 2 since it is the least recently used block
+    Hit: 60, Miss: 19
+
+(80) Memory Access Location(Hex): 0x2034
+    Memory Access Loaction(Bin): 00000000000000000010000000110100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 61, Miss: 19
+
+(81) Memory Access Location(Hex): 0x2034
+    Memory Access Loaction(Bin): 00000000000000000010000000110100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:4 (0x4)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 62, Miss: 19
+
+(82) Memory Access Location(Hex): 0x2038
+    Memory Access Loaction(Bin): 00000000000000000010000000111000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 63, Miss: 19
+
+(83) Memory Access Location(Hex): 0x203c
+    Memory Access Loaction(Bin): 00000000000000000010000000111100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 64, Miss: 19
+
+(84) Memory Access Location(Hex): 0x23b0
+    Memory Access Loaction(Bin): 00000000000000000010001110110000
+    BreakDown:
+      -Tag: 0000000000000000001000111011 (0x23b)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 6 since it is the least recently used block
+    Hit: 64, Miss: 20
+
+(85) Memory Access Location(Hex): 0x2038
+    Memory Access Loaction(Bin): 00000000000000000010000000111000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 65, Miss: 20
+
+(86) Memory Access Location(Hex): 0x2038
+    Memory Access Loaction(Bin): 00000000000000000010000000111000
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:8 (0x8)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 66, Miss: 20
+
+(87) Memory Access Location(Hex): 0x203c
+    Memory Access Loaction(Bin): 00000000000000000010000000111100
+    BreakDown:
+      -Tag: 0000000000000000001000000011 (0x203)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+
+    Trying Block 0 Tag:(0x203) -- Cache Hit.
+    Hit: 67, Miss: 20
+
+(88) Memory Access Location(Hex): 0x2040
+    Memory Access Loaction(Bin): 00000000000000000010000001000000
+    BreakDown:
+      -Tag: 0000000000000000001000000100 (0x204)
+      -Set: 0 (0x0)
+      -IN-blk offset:0 (0x0)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 3 since it is the least recently used block
+    Hit: 67, Miss: 21
+
+(89) Memory Access Location(Hex): 0x23dc
+    Memory Access Loaction(Bin): 00000000000000000010001111011100
+    BreakDown:
+      -Tag: 0000000000000000001000111101 (0x23d)
+      -Set: 0 (0x0)
+      -IN-blk offset:12 (0xc)
+    Block 0 -- OCCUPIED.
+    Block 1 -- OCCUPIED.
+    Block 2 -- OCCUPIED.
+    Block 3 -- OCCUPIED.
+    Block 4 -- OCCUPIED.
+    Block 5 -- OCCUPIED.
+    Block 6 -- OCCUPIED.
+
+    Trying block 7 tag 0x230 -- OCCUPIED.
+    All blocks are occupied, implementing LRU policy...
+    replacing block 7 since it is the least recently used block
+    Hit: 67, Miss: 22
+
+Final HitRate is: 75%
